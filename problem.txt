@@ -1,0 +1,14 @@
+Problem:
+1.  Given a String S and an integer value l,  S can be divided into shorter substrings with each having a length of l except for the last substring.
+e.g.   S = abaca, l = 2
+The substrings that can obtained will be: ab, ac, a
+
+2.  Furthermore, the substrings can be combined together to form 6 new strings, i.e. permutation of 3 taken 3 at a time.
+e.g.  abaca,  abaac, acaba, acaab, aabac, aacab
+
+3.  We will call each of one of these 6 strings a “SpliceJoin” of the word abaca with a length of 2
+
+4.  Write a function boolean isSpliceJoin(String s, int l, String v) which would return true only if v is a splice join of s.
+
+Requirements:
+1.  Please come up with your most optimal solution in terms of execution time. (i.e. the fast algorithm) and make sure that you handle all possible inputs.
