@@ -1,4 +1,4 @@
-# sampleproblem
+# Sample Problem
 
 The problem is in problem.txt while the solution is in solution.js
 
